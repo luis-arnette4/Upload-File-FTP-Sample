@@ -13,7 +13,7 @@ namespace Upload_File_FTP_Sample
         static void Main(string[] args)
         {
             // servidor FTP
-            String oFtp = "ftp://www.test.com";
+            String oFtp = @"ftp://www.test.com";
             // implementamos un cliente FTP, mediante la peticion que hemos creado al recurso FTP
             FtpWebRequest oRequest = (FtpWebRequest)WebRequest.Create(oFtp);
             // establecemos el comando STOR a enviar al servidor ftp
